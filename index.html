@@ -1,0 +1,42 @@
+<!--
+TODO
+Clean up SCSS
+Make Menu my menu
+Sort out screen heights and width
+gather assets
+create scss variables
+-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--Fullpage.js stuff-->
+	<link rel="stylesheet" type="text/css" href="/node_modules/fullpage.js/dist/jquery.fullpage.css">
+</head>
+
+<body>
+    <nav>
+	    <ul>
+            <li><a class="dropdown" href="#">Nav</a></li>
+              
+              <ul class="sub-menu">
+                  <li><a href="#">Nav 2.1</a></li>
+                  <li><a href="#">Nav 2.2</a></li>
+                  <li><a href="#">Nav 2.3</a></li>
+                  <li><a href="#">Nav 2.4</a></li>
+                </ul>
+	    </ul>
+	</nav>
+    <div id="fullpage">
+        <div class="section active 1">1</div>
+        <div class="section 2">2</div>
+        <div class="section 3">3</div>
+        <div class="section 4">4</div>
+    </div>
+    <script src="js/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullpage.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
